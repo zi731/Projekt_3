@@ -1,8 +1,7 @@
-class merge {
-private:
-    
+#include <vector>
+
+class mergesort {
 public:
-    merge();
-    ~merge();
-    int sort();
+    void sort(std::vector<int> tab, int po, int ko);
+    void scal(std::vector<int> tab, int po, int sr, int ko);
 };
