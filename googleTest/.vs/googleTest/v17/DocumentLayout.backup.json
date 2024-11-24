@@ -34,9 +34,9 @@
               "Title": "test.cpp",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\33066_P1\\Projekt_3\\googleTest\\googleTest\\test.cpp",
               "RelativeDocumentMoniker": "googleTest\\test.cpp",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\33066_P1\\Projekt_3\\googleTest\\googleTest\\test.cpp*",
-              "RelativeToolTip": "googleTest\\test.cpp*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\33066_P1\\Projekt_3\\googleTest\\googleTest\\test.cpp",
+              "RelativeToolTip": "googleTest\\test.cpp",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-20T15:37:46.006Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "googleTest\\pch.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-20T15:38:13.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T15:38:13.261Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "googleTest\\pch.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-20T15:38:14.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T15:38:14.475Z"
             }
           ]
         }

@@ -71,31 +71,46 @@ TEST(TestMergeSort, Test_9) {
 		EXPECT_GE(a[i], a[i - 1]);
 	}
 }
-/*
+
 TEST(TestMergeSort, Test_10) {
-	std::vector<int> a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-	std::vector<int> b = a;
+	std::vector<int> a = {-7, 5, -9, 2, -7, -9, 2, 2, 5, -5, -2, 4, -7};
 	mergesort t(a);
-	EXPECT_EQ(b, a);
+	for (int i = 1; i < a.size(); i++) {
+		EXPECT_GE(a[i], a[i - 1]);
+	}
 }
 
 TEST(TestMergeSort, Test_11) {
-	std::vector<int> a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+	std::vector<int> a = {12, 369};
 	std::vector<int> b = a;
 	mergesort t(a);
 	EXPECT_EQ(b, a);
 }
 
 TEST(TestMergeSort, Test_12) {
-	std::vector<int> a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-	std::vector<int> b = a;
+	std::vector<int> a = {32, 28, 84, 53, 52, 38, 7, 51, 64, 69, 58, 18, 57, 21, 12, 20, 36, 3, 90, 97, 5, 46, 100, 70, 61, 86, 59, 2, 85, 17, 14, 55, 22, 1, 74, 75, 23, 93, 50, 11, 26, 66, 96, 48, 92, 37, 8, 88, 73, 98, 29, 49, 83, 42, 68, 13, 24, 40, 63, 65, 47, 79, 15, 54, 16, 89, 41, 43, 95, 60, 72, 30, 81, 62, 78, 71, 10, 67, 91, 6, 4, 87, 45, 44, 82, 27, 39, 77, 33, 9, 35, 80, 34, 19, 56, 99, 31, 76, 25, 94};
 	mergesort t(a);
-	EXPECT_EQ(b, a);
+	for (int i = 1; i < a.size(); i++) {
+		EXPECT_GE(a[i], a[i - 1]);
+	}
 }
 
 TEST(TestMergeSort, Test_13) {
-	std::vector<int> a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-	std::vector<int> b = a;
+	std::vector<int> a = {58, 24, -52, 16, -23, 67, 81, 39, 69, -11, 65, -6, -62, -42, 66, -20, 15, 100, -35, -41, 52, -74, -7, 15, 85, -29, 68, 8, -74, -13, 77, -57, 79, 58, 41, 16, 53, 4, -3, 77, -72, -31, 96, 7, -47, -37, -99, -64, -39, -68, 63, 55, 80, -85, -88, -40, 19, 100, -86, 69, 2, -81, 41, -58, 91, -44, -91, -30, 28, 38, -15, 29, 54, 62, -3, 25, 97, 89, -39, 71, -29, 89, -88, -52, -98, -59, -5, -51, -73, 17, 25, 90, 99, -97, 70, -73, -79, 44, -69, -75};
 	mergesort t(a);
-	EXPECT_EQ(b, a);
-}*/
+	for (int i = 1; i < a.size(); i++) {
+		EXPECT_GE(a[i], a[i - 1]);
+	}
+}
+
+TEST(TestMergeSort, Test_14) {
+	std::vector<int> a;
+	srand(time(0));
+	for (int i = 0; i < 50; i++) {
+		a.push_back((rand() % 32767) - 16383);
+	}
+	mergesort t(a);
+	for (int i = 1; i < a.size(); i++) {
+		EXPECT_GE(a[i], a[i - 1]);
+	}
+}
