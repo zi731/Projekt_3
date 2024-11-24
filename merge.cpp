@@ -2,6 +2,10 @@
 #include <iostream>
 #include <vector>
 
+mergesort::mergesort(std::vector<int> &tab) {
+    sort(tab, 0, tab.size() - 1);
+}
+
 void mergesort::sort(std::vector<int> &tab, int po, int ko) {
     if (po < ko) {
         int sr = (po + ko) / 2;
