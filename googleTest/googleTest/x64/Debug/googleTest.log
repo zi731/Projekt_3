@@ -1,5 +1,5 @@
 ﻿  test.cpp
-C:\Users\HP\Desktop\33066_P1\Projekt_3\googleTest\googleTest\test.cpp(9,24): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\HP\Desktop\33066_P1\Projekt_3\googleTest\googleTest\test.cpp(21,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
   (kompilowanie pliku źródłowego „/test.cpp”)
   
   googleTest.vcxproj -> C:\Users\HP\Desktop\33066_P1\Projekt_3\googleTest\x64\Debug\googleTest.exe
