@@ -1,3 +1,5 @@
+/// @file Plik główny programu
+
 #include "merge.h"
 #include <iostream>
 #include <vector>
